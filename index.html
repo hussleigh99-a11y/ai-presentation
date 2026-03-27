@@ -22,16 +22,16 @@
   }
 
   .reveal-viewport { background: var(--bg); }
-  .reveal { font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', sans-serif; color: var(--text); }
+  .reveal { font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', sans-serif; color: var(--text); font-size: 28px; }
   .reveal h1, .reveal h2, .reveal h3 { font-weight: 700; letter-spacing: .03em; text-transform: none; }
   .reveal h1 { font-size: 2.2em; color: var(--gold); }
-  .reveal h2 { font-size: 1.55em; color: var(--cyan); }
-  .reveal h3 { font-size: 1.1em; color: var(--gold); }
-  .reveal p, .reveal li { line-height: 1.7; }
+  .reveal h2 { font-size: 1.45em; color: var(--cyan); }
+  .reveal h3 { font-size: 1.05em; color: var(--gold); }
+  .reveal p, .reveal li { line-height: 1.65; }
   .reveal ul { list-style: none; padding: 0; }
   .reveal ul li::before { content: '▸ '; color: var(--cyan); }
   .reveal section { text-align: left; }
-  .reveal .slides section { padding: 40px 60px; }
+  .reveal .slides section { padding: 28px 48px; }
 
   /* 进度条 */
   .reveal .progress { height: 4px; color: var(--gold); }
@@ -988,9 +988,9 @@ Reveal.initialize({
   backgroundTransition: 'fade',
   width: 1280,
   height: 720,
-  margin: 0.04,
-  minScale: 0.2,
-  maxScale: 2.0,
+  margin: 0.06,
+  minScale: 0.1,
+  maxScale: 1.0,
   center: false,
   autoAnimateEasing: 'ease',
   autoAnimateDuration: 0.6,
